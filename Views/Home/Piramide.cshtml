@@ -6,8 +6,13 @@
     {
         @for(int espaciosEnBlanco = Model - i; espaciosEnBlanco > 1 ; espaciosEnBlanco--)
         {
-            <img style="float: left; padding: 25px; background-color: blue" />
+            <img style="float: left; padding: 25px; background-color: white" />
         }
+        @for(int bloques = 0; bloques <= i ; bloques++)
+        {
+            <img  style="float: left;"src="~/images/bloque.webp" alt="#"/>
+        }
+         <img style="float: left; padding: 25px; background-color: white" />
         @for(int bloques = 0; bloques <= i ; bloques++)
         {
             <img  style="float: left;"src="~/images/bloque.webp" alt="#"/>
